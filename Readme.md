@@ -1,3 +1,4 @@
+```golang
 func main() {
 	profile := `
 Hi there 👋
@@ -15,5 +16,5 @@ Here are some quick things about me:
 	for k, v := range me {
 		fmt.Printf("- %s: %s \n", k, v)
 	}
-
 }
+```
