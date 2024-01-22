@@ -1,11 +1,9 @@
 ```golang
 func main() {
 	profile := `
-Hi there 👋
-great to meet you here! 😊
-
-Here are some quick things about me:
-`
+	Hi there 👋
+	great to meet you here! 😊
+	Here are some quick things about me:`
 	fmt.Println(profile)
 	
 	me := map[string]string{
