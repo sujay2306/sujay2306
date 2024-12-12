@@ -7,8 +7,8 @@ func main() {
 	fmt.Println(profile)
 	
 	me := map[string]string{
-		"name":    "Sujay KS",
-		"job":     "DevOps/SRE",
+		"name"  :    "Sujay KS",
+		"job"   :    "DevOps/SRE",
 		"company": "UniCards",
 	}
 	for k, v := range me {
